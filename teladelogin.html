@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="teladelogin.css" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div class="main-login">
+      <div class="left-login">
+        <h1>Faça login<br />para acessar a loja</h1>
+        <img
+          src="loja.svg"
+          class="left-login-imagem"
+          alt="imagem de rapaz comprando roupas animação"
+        />
+      </div>
+      <div class="right-login">
+        <div class="card-login">
+          <h1>LOGIN</h1>
+          <div class="textfield">
+            <label for="usuario">Usuário</label>
+            <input
+              type="text"
+              name="usuario"
+              placeholder="usuario"
+              id="usuario"
+            />
+          </div>
+          <div class="textfield">
+            <label for="senha">senha</label>
+            <input
+              type="password"
+              name="senha"
+              placeholder="senha"
+              id="senha"
+            />
+          </div>
+          <button class="btn-login" onclick="Entrar(); return false">
+            Entrar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="teladelogin.js"></script>
+  </body>
+</html>
